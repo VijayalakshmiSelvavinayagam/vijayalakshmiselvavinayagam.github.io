@@ -1,4 +1,4 @@
-@media screen and (min-width: 413px){
+@media screen and (min-width: 401px){
     .container{
         width: 80%;
         height: 80%;
@@ -107,7 +107,7 @@
     }
 }
 
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 400px) {
     .container{
         width: 98%;
         height: auto;
