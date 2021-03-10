@@ -1,3 +1,4 @@
+@media screen and (min-width: 413px) {
     .container{
         width: 96%;
         height: 96%;
@@ -104,3 +105,113 @@
         line-height: 1.5em;
         font-family:'Times New Roman', Times, serif;
     }
+}
+
+@media screen and (max-width: 412px) {
+    .container{
+        width: 96%;
+        height: 96%;
+        margin-left: 2%;
+        margin-right: 2%;                
+    }
+    .title{
+        color: white;
+        font-size: 30px;
+    }
+    .header{
+        text-align: center;
+        padding: 10px;        
+        background: black;
+        border-radius: 15px;        
+    }
+    .footer{
+        text-align: center;
+        padding: 10px;        
+        background: black;
+        border-radius: 15px;    
+        text-align: center;
+        color: white;
+        padding-top: 10px;
+        padding-bottom: 10px;    
+    }
+    .pics{
+        border-radius: 50%;
+        width:170px;
+        height:120px;
+    }
+    .media{
+        width:30px;
+        height:30px;
+    }  
+    br{
+        line-height: 1.5px;
+    }
+    .menu{
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background: black;
+        position: relative;
+        border-radius: 15px;
+    }
+    .animation{
+        padding: 1% 1%;
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        border-radius: 20px;
+        margin-left: 5px;
+        margin-right: 5px;
+        z-index: 1;
+        background-color: black;
+        color: white;
+        position: relative;
+    }
+    .animation:hover{
+        padding: 1% 1%;
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        border-radius: 20px;
+        margin-left: 5px;
+        margin-right: 5px;
+        background-color:#fafafa;
+        color: #696868;
+        position: relative;
+    }
+    .animation:before{
+        height: calc(100% + 10px);
+        width: calc(100% + 10px);
+        background: linear-gradient(90deg,violet,indigo,blue,green,yellow,orange,red,violet,indigo,blue,green,yellow,orange,red);
+        background-size: 500%;
+        border-radius: 20px;
+        position: absolute;
+        content: '';
+        z-index: -1;
+        top: -5px;
+        left: -5px;
+        animation: animate 20s linear infinite;
+    }
+    @keyframes animate{
+        0%{
+            background-position: 0 0;
+        }
+        50%{
+            background-position: 200% 0;
+        }
+        100%{
+            background-position: 0 0;
+        }
+    }
+    .content{
+        border: 1px solid #fafafa;
+        padding: 10px;
+        height: auto;
+        box-shadow: 10px 5px 50px;
+        border-radius: 15px;
+    }
+    .p1{
+        line-height: 1.5em;
+        font-family:'Times New Roman', Times, serif;
+    }
+}
