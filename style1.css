@@ -1,4 +1,4 @@
-@media screen and (max-width: 412px) {
+
     .container{
         width: 99%;
         height: auto;
@@ -107,5 +107,5 @@
         font-family:'Times New Roman', Times, serif;
         font-size: large;
     }
-}
+
 
