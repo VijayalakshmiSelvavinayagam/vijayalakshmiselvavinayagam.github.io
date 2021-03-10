@@ -151,6 +151,7 @@
         background: black;
         position: relative;
         border-radius: 15px;
+        font-size: small;
     }
     .animation{
         padding: 1% 1%;
