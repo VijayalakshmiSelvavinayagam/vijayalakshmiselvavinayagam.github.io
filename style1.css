@@ -154,6 +154,9 @@
         position: relative;
         border-radius: 15px;
     }
+    .menu a{
+        font-size: small;
+    }
     .animation{
         padding: 1% 1%;
         text-decoration: none;
