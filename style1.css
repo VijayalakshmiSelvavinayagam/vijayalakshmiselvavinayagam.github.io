@@ -218,5 +218,8 @@
         font-family:'Times New Roman', Times, serif;
         font-weight: small;
     }
+    h3 {
+        font-weight: small;
+    }
 }
 
