@@ -116,7 +116,7 @@
     }
     .title{
         color: white;
-        font-size: 25px;
+        font-size: 20px;
     }
     .header{
         text-align: center;
@@ -216,10 +216,10 @@
     .p1{
         line-height: 1.5em;
         font-family:'Times New Roman', Times, serif;
-        font-weight: small;
+        font-size: small;
     }
     h3 {
-        font-weight: small;
+        font-size: x-small;
     }
 }
 
