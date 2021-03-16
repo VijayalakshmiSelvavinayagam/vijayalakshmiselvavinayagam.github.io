@@ -116,7 +116,7 @@
     }
     .title{
         color: white;
-        font-size: 30px;
+        font-size: 25px;
     }
     .header{
         text-align: center;
@@ -155,7 +155,7 @@
         border-radius: 15px;
     }
     .menu a{
-        font-size:x-small;
+        font-size:small;
     }
     .animation{
         padding: 1% 1%;
@@ -216,6 +216,7 @@
     .p1{
         line-height: 1.5em;
         font-family:'Times New Roman', Times, serif;
+        font-weight: small;
     }
 }
 
