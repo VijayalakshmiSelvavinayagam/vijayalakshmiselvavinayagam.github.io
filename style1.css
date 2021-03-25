@@ -66,8 +66,8 @@
         border-radius: 20px;
         margin-left: 5px;
         margin-right: 5px;
-        background-color:#fafafa;
-        color: #1b1818;
+        background-color:white;
+        color: black;
         position: relative;
     }
     .animation:before{
@@ -178,8 +178,8 @@
         border-radius: 20px;
         margin-left: 5px;
         margin-right: 5px;
-        background-color:#fafafa;
-        color: #1b1818;
+        background-color:white;
+        color: black;
         position: relative;
     }
     .animation:before{
