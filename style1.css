@@ -105,6 +105,28 @@
         line-height: 1.5em;
         font-family:'Times New Roman', Times, serif;
     }
+    .bar{
+        width: 80%;
+        background-color: lightgray;
+        border-radius: 25px;
+    }
+    .skills {
+        text-align: right; 
+        padding-top: 8px; 
+        padding-bottom: 8px; 
+        color: white; 
+      }
+      
+      .sql {width: 85%; background-color: #b515bb;border-radius: 25px;} 
+      .plsql {width: 85%; background-color: #116eb9;border-radius: 25px;} 
+      .jda {width: 75%; background-color: #612723;border-radius: 25px;} 
+      .html {width: 65%; background-color: #14645e;border-radius: 25px;} 
+      .css {width: 65%; background-color: #ee7e14;border-radius: 25px;} 
+      .java {width: 65%; background-color: #34197e;border-radius: 25px;} 
+    .p2{
+        font-family:'Times New Roman', Times, serif;
+        font-size: small;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -220,6 +242,28 @@
     }
     h3 {
         font-size: x-small;
+    }
+    .bar{
+        width: 80%;
+        background-color: lightgray;
+        border-radius: 25px;
+    }
+    .skills {
+        text-align: right; 
+        padding-top: 2px; 
+        padding-bottom: 2px; 
+        color: white; 
+      }
+      
+      .sql {width: 85%; background-color: #b515bb;border-radius: 25px;} 
+      .plsql {width: 85%; background-color: #116eb9;border-radius: 25px;} 
+      .jda {width: 75%; background-color: #612723;border-radius: 25px;} 
+      .html {width: 65%; background-color: #14645e;border-radius: 25px;} 
+      .css {width: 65%; background-color: #ee7e14;border-radius: 25px;} 
+      .java {width: 65%; background-color: #34197e;border-radius: 25px;} 
+      .p2{
+        font-family:'Times New Roman', Times, serif;
+        font-size: small;
     }
 }
 
