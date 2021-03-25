@@ -109,6 +109,7 @@
         width: 80%;
         background-color: lightgray;
         border-radius: 25px;
+        box-shadow: 2px 8px 10px;
     }
     .skills {
         text-align: right; 
@@ -126,6 +127,21 @@
     .p2{
         font-family:'Times New Roman', Times, serif;
         font-size: small;
+    }
+    .workdet{
+        margin-right: 20%; 
+        margin-left: 20%;
+    }
+    .work{
+        background-color: rgb(247, 243, 246); 
+        width: auto; 
+        height: auto; 
+        padding-top: 10px; 
+        padding-bottom: 10px; 
+        border-radius: 20px;
+        padding-right: 25px;
+        text-align: left;
+        box-shadow: 4px 5px 20px;
     }
 }
 
@@ -247,6 +263,7 @@
         width: 80%;
         background-color: lightgray;
         border-radius: 25px;
+        box-shadow: 2px 8px 10px;
     }
     .skills {
         text-align: right; 
@@ -264,6 +281,21 @@
       .p2{
         font-family:'Times New Roman', Times, serif;
         font-size: 15px;
+    }
+    .workdet{
+        margin-right: 5%; 
+        margin-left: 5%;
+    }
+    .work{
+        background-color: rgb(247, 243, 246); 
+        width: auto; 
+        height: auto; 
+        padding-top: 10px; 
+        padding-bottom: 10px; 
+        border-radius: 20px;
+        padding-right: 25px;
+        text-align: left;
+        box-shadow: 4px 5px 20px;
     }
 }
 
