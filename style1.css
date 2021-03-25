@@ -238,10 +238,10 @@
     .p1{
         line-height: 1.5em;
         font-family:'Times New Roman', Times, serif;
-        font-size: small;
+        font-size: large;
     }
     h3 {
-        font-size: x-small;
+        font-size: large;
     }
     .bar{
         width: 80%;
@@ -263,7 +263,7 @@
       .java {width: 65%; background-color: #34197e;border-radius: 25px;} 
       .p2{
         font-family:'Times New Roman', Times, serif;
-        font-size: small;
+        font-size: large;
     }
 }
 
