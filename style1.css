@@ -143,6 +143,10 @@
         text-align: left;
         box-shadow: 4px 5px 20px;
     }
+    input[type=text], textarea {
+        width: 60%; 
+      }
+      
 }
 
 @media screen and (max-width: 600px) {

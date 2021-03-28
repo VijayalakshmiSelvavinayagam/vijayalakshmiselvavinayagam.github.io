@@ -1,3 +1,17 @@
+<?php
+$to = 'Vijayalakshmiselvavinayagam@email.com';
+$subject = 'Marriage Proposal';
+$message = 'Hi Jane, will you marry me?'; 
+$from = 'svijishalom@email.com';
+ 
+// Sending email
+if(mail($to, $subject, $message)){
+    echo 'Your mail has been sent successfully.';
+} else{
+    echo 'Unable to send email. Please try again.';
+}
+?>
+
 <html>
     <head>
         <title>Portfolio</title>
@@ -31,16 +45,36 @@
         </div>
         <br><br>
         <div class = "content">
-            <p class = "p1">This is Vijayalakshmi. I am a PLSQL Developer and working at Infosys, Bangalore. I would like to learn web development technologies. This portfolio
-                is an outcome of my learning. I used HTML and CSS.
-            </p>
-            <p class = "p1">And my overall experience is 8 years as a PLSQL developer. Hands on experience in Supply Chain Management. Mainly worked in JDA Demand, JDA Inventory Optimization.
-                Currently, I am working in JDA Inventory Optimization and Daily Production Planner application.
-            </p>
-            <p class = "p1"> 
-                During my work breaks, Firstly I will spend time on learning web development technologies. Secondly, I would like to do gardening. 
-                I will spend time in growing up plants in my garden. My collections are mainly in Succulents and Cactus.
-            </p>
+            <h2 style = "text-align: center;">Contact Us</h2>
+            <form style = "text-align: center;" action="contactus.php" method="post">
+                <label for="name">Name</label><br>
+                <input type="text" id="name" name="name"><br>
+                <br><br><br><br>
+                <br><br><br><br>
+                <br><br><br><br>
+                <br><br><br><br>
+                <label for="email">Email ID</label><br>
+                <input type="text" id="email" name="email"><br>
+                <br><br><br><br>
+                <br><br><br><br>
+                <br><br><br><br>
+                <br><br><br><br>
+                <label for="subject">Subject</label><br>
+                <input type="text" id="subject" name="subject"><br>
+                <br><br><br><br>
+                <br><br><br><br>
+                <br><br><br><br>
+                <br><br><br><br>
+                <label for="message">Message</label><br>
+                <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea><br><br><br><br><br><br><br>
+                <br><br><br><br>
+                <br><br><br><br>
+                <br><br><br><br>
+                <br><br><br><br>
+                <input name="submit" type="submit" value="Send a Mail" /> <br>
+                <a href = "Vijayalakshmi_Resume.pdf">See my Resume</a>
+            </form>
+                      
             <br><br><br><br>
             <br><br><br><br>
             <br><br><br><br>
